@@ -3,3 +3,4 @@
 - symmetric_tree.cpp - https://leetcode.com/problems/symmetric-tree/
 - BST_Or_Not.cpp - https://leetcode.com/problems/validate-binary-search-tree/
 - level_order_traversal.cpp - https://leetcode.com/problems/binary-tree-level-order-traversal/
+- exponentiation_by_squaring.cpp - https://leetcode.com/problems/powx-n/

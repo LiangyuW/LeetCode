@@ -7,3 +7,4 @@
 - Maximum_Depth_BST.cpp - https://leetcode.com/problems/maximum-depth-of-binary-tree/
 - Minimum_Depth_BST.cpp - https://leetcode.com/problems/minimum-depth-of-binary-tree/
 - TinyURL.cpp - https://leetcode.com/problems/encode-and-decode-tinyurl/
+- Prime_Number_Sieve.cpp - https://leetcode.com/problems/count-primes/

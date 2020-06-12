@@ -1,5 +1,10 @@
 class Solution {
 public:
+    
+    /*
+        the 4 corners to rotate are (x,y), (N-y-1,x), (N-x-1, N-y-1), (y, N-x-1)
+    */
+    
     void rotate(vector<vector<int>>& matrix) {
         int N=matrix.size();
         for(int x=0; x<N/2; x++){

@@ -16,3 +16,4 @@
 - Random_Points_In_A_Circle.cpp - https://leetcode.com/problems/generate-random-point-in-a-circle/
 - Tic_Tac_Toe_Winner.cpp - https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
 - string_compression.cpp - https://leetcode.com/problems/string-compression/
+- Binary_Search.cpp - https://leetcode.com/problems/search-in-rotated-sorted-array/

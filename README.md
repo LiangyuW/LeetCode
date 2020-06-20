@@ -20,3 +20,4 @@
 - Buy_Sell_Stocks.cpp - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - Rotate_Array.cpp - https://leetcode.com/problems/rotate-array/
 - Sliding_Window.cpp - https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+- DP_Minimum_Coin_Change.cpp - https://leetcode.com/problems/coin-change/

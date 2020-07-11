@@ -28,8 +28,7 @@ public:
         for(int i=0; i<word.size(); i++){
             int index=word[i]-'a';
             if(!n->letters[index]){
-                trienode*newnode=new trienode();
-                n->letters[index]=newnode;
+                n->letters[index]=new trienode();
             }
             n=n->letters[index];
         }

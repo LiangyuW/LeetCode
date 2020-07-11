@@ -8,22 +8,8 @@ class trienode{
     {
         this->isleaf=false;
         
-    }
-    
-    bool hasKey(char c){
-        return letters[c-'a']!=NULL;
-    }
-    
-    trienode* get(char c){
-        return letters[c-'a'];
-    }
-    
-    void insert(char c, trienode*n){
-        letters[c-'a']=n;
-    }
-    
+    }    
 };
-
 
 
 class Trie {
@@ -40,12 +26,12 @@ public:
     void insert(string word) {
         trienode* n=root;
         for(int i=0; i<word.size(); i++){
-            char c=word[i];
-            if(!n->hasKey(c)){
+            int index=word[i]-'a';
+            if(!n->letters[index]){
                 trienode*newnode=new trienode();
-                n->insert(c, newnode);
+                n->letters[index]=newnode;
             }
-            n=n->get(c);
+            n=n->letters[index];
         }
         n->isleaf=true;
     }
@@ -53,9 +39,9 @@ public:
     trienode* searchPrefix(string word){
         trienode*n=root;
         for(int i=0; i<word.size(); i++){
-            char c=word[i];
-            if(n->hasKey(c)){
-                n=n->get(c);
+            int index=word[i]-'a';
+            if(n->letters[index]){
+                n=n->letters[index];
             } else {
                 return NULL;
             }
@@ -76,7 +62,6 @@ public:
         return n!=NULL;
     }
 };
-
 
 /**
  * Your Trie object will be instantiated and called as such:

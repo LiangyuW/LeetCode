@@ -1,1 +1,2 @@
 - replace_words.cpp - https://leetcode.com/problems/replace-words/
+- word_dictionary.cpp - https://leetcode.com/problems/add-and-search-word-data-structure-design/

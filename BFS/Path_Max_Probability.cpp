@@ -1,3 +1,47 @@
+typedef pair<int, double> id;
+typedef pair<double, int> di;
+class Solution {
+public:
+    double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) {
+        vector<vector<id>> adj(n);
+        
+        for(int i=0; i<edges.size(); i++){
+            adj[edges[i][0]].push_back({edges[i][1], -log(succProb[i])});
+            adj[edges[i][1]].push_back({edges[i][0], -log(succProb[i])});
+        }
+        
+        vector<double> dis(n, FLT_MAX);
+        dis[start]=0;
+        
+        priority_queue<di, vector<di>, greater<di>> pq;
+
+        pq.push({dis[start], start});
+        
+        while(!pq.empty()){
+            auto [prob, u]=pq.top();
+            pq.pop();
+            if(prob!=dis[u]) continue;
+            
+            for(auto [v, w]: adj[u]){
+               
+                if(dis[v]>dis[u]+w){
+                    dis[v]=dis[u]+w;
+                    
+                    pq.push({dis[v],v});
+                }
+            }
+            
+        }
+    
+        return 1/exp(dis[end]);
+    }
+    
+};
+
+
+
+
+
 class Solution {
 public:
     double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) {

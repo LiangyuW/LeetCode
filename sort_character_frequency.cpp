@@ -33,3 +33,27 @@ static char __ = []() -> char {
     std::cout.tie(NULL);
     return '\0';
 }();
+
+
+class Solution {
+public:
+
+    string frequencySort(string s) {
+        
+        unordered_map<char, int>freq;
+        for(auto c:s)freq[c]++;
+        sort(s.begin(), s.end(), [&](char &a, char &b){ 
+            if(freq[a]==freq[b]) return a<b;
+            else return freq[a]>freq[b];
+        });
+            
+        return s;
+    }
+};
+
+static char __ = []() -> char {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    std::cout.tie(NULL);
+    return '\0';
+}();

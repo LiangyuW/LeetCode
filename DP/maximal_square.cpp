@@ -3,7 +3,6 @@ public:
     int maximalSquare(vector<vector<char>>& matrix) {
         int m=matrix.size();
         int n=m>0? matrix[0].size(): 0;
-        cout<<m<<" "<<n;
         int max=0;
         int dp[m+1][n+1];
         

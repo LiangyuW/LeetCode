@@ -1,3 +1,4 @@
 - bellman_ford.cpp - https://leetcode.com/problems/cheapest-flights-within-k-stops/
 - town_judge.cpp - https://leetcode.com/problems/find-the-town-judge/
 - floyd-warshall.cpp - https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
+- isBipartite.cpp - https://leetcode.com/problems/is-graph-bipartite/

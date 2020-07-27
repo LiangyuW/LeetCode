@@ -1,6 +1,7 @@
 
 https://leetcode.com/liangyuw/
 
+- 3sum2.cpp - https://leetcode.com/problems/3sum-smaller/
 - 3sum.cpp - https://leetcode.com/problems/3sum/
 - BST_from_preorder_traversal.cpp - https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
 - 2sum.cpp - https://leetcode.com/problems/two-sum/

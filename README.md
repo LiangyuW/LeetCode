@@ -1,6 +1,7 @@
 
 https://leetcode.com/liangyuw/
 
+- kth_missing_number.cpp - https://leetcode.com/problems/missing-element-in-sorted-array/
 - 3sum2.cpp - https://leetcode.com/problems/3sum-smaller/
 - 3sum.cpp - https://leetcode.com/problems/3sum/
 - BST_from_preorder_traversal.cpp - https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/

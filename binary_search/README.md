@@ -1,1 +1,2 @@
 - bouquets.cpp - https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
+- force_between_2_balls.cpp - https://leetcode.com/problems/magnetic-force-between-two-balls/

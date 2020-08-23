@@ -1,3 +1,4 @@
+- Minimize_Max_Distance_to_Gas_Station.cpp - https://leetcode.com/problems/minimize-max-distance-to-gas-station/
 - divide_chocolate.cpp - https://leetcode.com/problems/divide-chocolate/
 - koko_bananas.cpp - https://leetcode.com/problems/koko-eating-bananas/
 - Split_Array_Largest_Sum.cpp - https://leetcode.com/problems/split-array-largest-sum/

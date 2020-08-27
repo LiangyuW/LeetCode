@@ -1,1 +1,2 @@
 - max_freq_stack.cpp - https://leetcode.com/problems/maximum-frequency-stack/
+- merge_k_sorted_lists.cpp - https://leetcode.com/problems/merge-k-sorted-lists/

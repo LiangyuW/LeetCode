@@ -1,6 +1,7 @@
 
 https://leetcode.com/liangyuw/
 
+- super_ugly_number.cpp - https://leetcode.com/problems/super-ugly-number/
 - 2Sum_Data_Structure_Design.cpp - https://leetcode.com/problems/two-sum-iii-data-structure-design/
 - permutations.cpp - https://leetcode.com/problems/permutations/
 - kth_missing_number.cpp - https://leetcode.com/problems/missing-element-in-sorted-array/

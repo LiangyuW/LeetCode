@@ -1,4 +1,4 @@
-- Create Minimum_Number_Vertices_Reach_All_Nodes.cpp - https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/
+- Minimum_Number_Vertices_Reach_All_Nodes.cpp - https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/
 - Latest_Group_of_Size_M.cpp - https://leetcode.com/problems/find-latest-group-of-size-m/
 - Connected_Components_Undirected_Graph.cpp - https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 - graph_coloring.cpp - https://leetcode.com/problems/flower-planting-with-no-adjacent/

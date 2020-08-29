@@ -1,3 +1,4 @@
+- super_ugly_number.cpp - https://leetcode.com/problems/super-ugly-number/
 - Kadane_Algorithm.cpp - https://leetcode.com/problems/maximum-subarray/
 - robot_paths.cpp - https://leetcode.com/problems/unique-paths/
 - Robot_Path_2.cpp - https://leetcode.com/problems/unique-paths-ii/

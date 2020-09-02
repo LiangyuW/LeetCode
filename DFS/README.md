@@ -1,3 +1,4 @@
+- 2nd_minimum_node_binary_tree.cpp - https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
 - In_Order_BST.cpp - https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 - maze.cpp - https://leetcode.com/problems/the-maze/    
 - flood_fill.cpp - https://leetcode.com/problems/flood-fill/

@@ -1,3 +1,4 @@
+- number_of_Longest_increasing_subsequence.cpp - https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 - super_ugly_number.cpp - https://leetcode.com/problems/super-ugly-number/
 - Kadane_Algorithm.cpp - https://leetcode.com/problems/maximum-subarray/
 - robot_paths.cpp - https://leetcode.com/problems/unique-paths/

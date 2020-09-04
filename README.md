@@ -44,3 +44,4 @@ https://leetcode.com/liangyuw/
 - Watched_Videos_Friends.cpp - https://leetcode.com/problems/get-watched-videos-by-your-friends/
 - Unique_File_Names.cpp - https://leetcode.com/problems/making-file-names-unique/
 - BST_Path_Sum.cpp - https://leetcode.com/problems/path-sum/
+- goat_latin.cpp - https://leetcode.com/problems/goat-latin/

@@ -1,1 +1,2 @@
+- minimum_cost_to_delete_repeat_letters.cpp - https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/
 - lemonade.cpp - https://leetcode.com/problems/lemonade-change/solution/

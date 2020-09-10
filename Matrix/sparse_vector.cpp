@@ -4,21 +4,21 @@ public:
     
     SparseVector(vector<int> &nums) {
         for(int i=0; i<nums.size(); i++){
-            if(nums[i]){
-                v[i]=nums[i];
-            }
-        }    
-        
+            if(nums[i]) v[i]=nums[i];}    
     }
     
     // Return the dotProduct of two sparse vectors
     int dotProduct(SparseVector& vec) {
         int product=0;
         
+        unordered_map<int, int>&w=vec.v;
+        
+        if(w.size()>v.size()) swap(v, w);
+        
         for(auto &e: v){
-            if(vec.v[e.first]) product+=vec.v[e.first]*e.second;
-        }
+            if(w[e.first]) product+=w[e.first]*e.second; }
         return product;
+        
     }
 };
 
@@ -29,3 +29,4 @@ static char __ = []() -> char {
     std::cout.tie(NULL);
     return '\0';
 }();
+

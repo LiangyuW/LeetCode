@@ -13,7 +13,7 @@ public:
         
         unordered_map<int, int>&w=vec.v;
         
-        if(w.size()>v.size()) swap(v, w);
+        if(w.size()<v.size()) swap(v, w);
         
         for(auto &e: v){
             if(w[e.first]) product+=w[e.first]*e.second; }

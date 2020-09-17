@@ -6,6 +6,7 @@ https://leetcode.com/liangyuw/
 - Degree_of_array.cpp - https://leetcode.com/problems/degree-of-an-array/
 - keyboard.cpp - https://leetcode.com/problems/single-row-keyboard/
 - 2Sum_Data_Structure_Design.cpp - https://leetcode.com/problems/two-sum-iii-data-structure-design/
+- shuffle_array.cpp - https://leetcode.com/problems/shuffle-the-array/
 - permutations.cpp - https://leetcode.com/problems/permutations/
 - kth_missing_number.cpp - https://leetcode.com/problems/missing-element-in-sorted-array/
 - 3sum2.cpp - https://leetcode.com/problems/3sum-smaller/

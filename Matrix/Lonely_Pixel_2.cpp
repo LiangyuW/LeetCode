@@ -24,6 +24,7 @@ public:
                     for(int k=0; k<n; k++){
                       if(picture[k][j]=='B' && picture[k]!=picture[i]){
                           rule2=false;
+                          break;
                       }
                     }
                     if(rule2)pixels++;
@@ -34,3 +35,10 @@ public:
         return pixels;
     }
 };
+
+static const int __ = []() {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    std::cout.tie(nullptr);
+    return 0;
+}();

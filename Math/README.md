@@ -9,3 +9,5 @@
 - shoelace_formula_largest_triangle_area.cpp - https://leetcode.com/problems/largest-triangle-area/
 - strobogrammatic_number.cpp - https://leetcode.com/problems/strobogrammatic-number/
 - missing_number.cpp https://leetcode.com/problems/missing-number/
+- rectangle_length_width.cpp - https://leetcode.com/problems/construct-the-rectangle/
+          

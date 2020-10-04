@@ -1,6 +1,7 @@
 
 **Profile** https://leetcode.com/liangyuw/
 
+- 1_count_and_say.cpp - https://leetcode.com/problems/count-and-say/
 - super_ugly_number.cpp - https://leetcode.com/problems/super-ugly-number/
 - Detect_Pattern.cpp - https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/
 - Degree_of_array.cpp - https://leetcode.com/problems/degree-of-an-array/

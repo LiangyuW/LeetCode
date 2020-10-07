@@ -1,4 +1,4 @@
-- topological_sort_kahn.cpp - https://leetcode.com/problems/course-schedule/
+- topological_sort_kahn.cpp - https://leetcode.com/problems/course-schedule-ii/
 - kruskal_minimum_path_connect_all_dots.cpp - https://leetcode.com/problems/min-cost-to-connect-all-points/
 - friend_circle.cpp - https://leetcode.com/problems/friend-circles/        
 - similar_sentence.cpp - https://leetcode.com/problems/sentence-similarity-ii/
